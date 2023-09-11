@@ -1,0 +1,90 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(67, 117, 253);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+}
+
+ul{
+    list-style: none; /*Estilos de las listas */
+}
+
+ul li{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /*Tipo de letra*/
+    font-size: 22px; /*Tamaño de letra*/
+    height: 60px; /*Altura de cada opcion de la lista*/
+}
+
+ul li a{
+    height: 60px; /*Altura*/
+    background-color: #333; /*Color de fondo*/
+    display: block;
+    border-left: 10px solid rgb(8,96,179);
+    border-right: 5px solid rgb(144,253,111);
+    padding-left: 15px; /*Separacion izquierda del texto*/
+    text-decoration: none;
+    color: #bfe1f1;
+}
+
+ul li a:hover{
+    margin-left: 10px; /*Separacion del lado izquierdo*/
+    color: #b9b7b7; /*Color de letra*/
+    background-color: #0b1741; /*Color de fondo*/
+    box-shadow: 10px 10px 20px #000; /*Sombra*/
+    transform: rotate(4deg);
+    -moz-transform: rotate(4deg);
+    -webkit-transform:rotate(4deg);
+}
+
+td{
+    vertical-align: top;
+}
+
+
+a{
+    text-decoration: none;
+    color: rgb(29, 4, 255);
+}
+
+div{
+    color: rgb(0, 0, 0);
+    height: 100%;
+    padding: 20px 10px 20px 40px;
+    margin: 10px;
+    border: 1px solid  rgb(6, 122, 255);
+    background-color: rgb(138, 178, 253);
+    border-radius: 15px;
+    border: solid 2px rgb(7, 120, 248);
+    box-shadow: 2px 2px 5px rgb(0, 4, 61);
+}
+
+.menu, .menu a{
+    height: 50px;
+    width: 50px;
+}
+
+.menu a:hover {
+    background-color: #52d7ff;
+    cursor:default;
+}
+
+.imagen{
+    padding: 10px;
+}
+
+.menu{
+    position:inherit;
+}
+
+p{
+    text-align: justify;
+}
+
+.pieDePagina{
+    text-align: center;
+    line-height: 10px;
+}
